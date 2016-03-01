@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TimerApp</string>
+
+    <!-- Timer Tab Strings -->
+    <string name="start_button">Start</string>
+    <string name="timer_text">Timer Text</string>
+    <string name="abandon_button">Abandon</string>
+    <string name="extend_button">Extend</string>
+    <!-- Setting Tab Strings -->
+    <string name="workInt_text">Work Interval</string>
+    <string name="breakInt_text">Break Interval</string>
+    <string name="loopCount_text">Timer Loop #</string>
+</resources>

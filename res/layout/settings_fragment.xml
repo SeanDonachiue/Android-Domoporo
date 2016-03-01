@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:weightSum="1" android:baselineAligned="false">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="210dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="fill_parent" android:weightSum="1">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/workInt_text"
+                android:id="@+id/textView" android:elegantTextHeight="false"
+                android:textSize="32sp" android:layout_marginTop="60dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/breakInt_text"
+                  android:id="@+id/textView2" android:elegantTextHeight="false" android:textSize="32sp"
+                  android:layout_marginTop="90dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/loopCount_text"
+                  android:id="@+id/textView3" android:elegantTextHeight="false" android:textSize="32sp"
+                  android:layout_marginTop="90dp"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent" android:layout_weight="1.19">
+        <NumberPicker
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:id="@+id/workPicker" android:layout_marginTop="30dp" android:layout_marginLeft="50dp"
+                android:orientation="vertical"/>
+        <NumberPicker
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/breakPicker" android:layout_marginLeft="50dp"/>
+        <NumberPicker
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/loopPicker" android:layout_marginLeft="50dp"/>
+    </LinearLayout>
+</LinearLayout>
